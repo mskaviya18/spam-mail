@@ -1,0 +1,22 @@
+# Python / Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Streamlit secrets & local config
+.streamlit/secrets.toml
+.env
+
+# Model outputs & Cache
+model/*.pkl
+data/*.csv
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
